@@ -10,6 +10,6 @@ Resources, and Practical Codes (using llm, fine-tuning llm, and training model f
    Theories from this course are worth learning.
 3. ChatGPT: ChatGPT Prompt Engineering for Developers
 
-### Articles with practical code:
+### Blogs/Articles with practical code:
 1. General: How to train a language model from scratch: https://huggingface.co/blog/how-to-train
 2. llama2: https://huggingface.co/blog/llama2#how-to-prompt-llama-2 (If you are using Google Colab, you would need to upgrade to the pro version)
