@@ -10,6 +10,7 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 1. General: How to train a language model from scratch: https://huggingface.co/blog/how-to-train
 2. llama2: https://huggingface.co/blog/llama2#how-to-prompt-llama-2 (If you are using Google Colab, you would need to upgrade to the pro version)
 3. Information Extraction with llama2: https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380
+4. LLAMA2 with LangChain: https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b
  
 ### Courses:
 1. General: Generative AI with LLMS (Coursera): https://www.coursera.org/learn/generative-ai-with-llms
