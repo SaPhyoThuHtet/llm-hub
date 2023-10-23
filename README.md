@@ -32,6 +32,8 @@ Optimization Algorithm:
 To achieve this, you typically use an optimization algorithm, such as stochastic gradient descent (SGD). This algorithm iteratively updates the model's parameters in the direction that minimizes the loss: θ=θ - η * ∇J(θ) Where: η is the learning rate, which controls the size of each parameter update. ∇J(θ) is the gradient of the loss with respect to the model parameters, indicating the direction in which the parameters should be adjusted to reduce the loss
 In summary, full fine-tuning mathematically involves iteratively adjusting the model's parameters (θ) using an optimization algorithm (e.g., SGD) to minimize a loss function (J), which measures the error in performing a specific task. This process allows the model to adapt and specialize for the defined task or domain.
 
+Reference: Coming Soon
+
 ## Notebooks
 
 ## Resources:
