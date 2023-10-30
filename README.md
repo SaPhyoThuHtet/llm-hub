@@ -45,7 +45,8 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 2. llama2: https://huggingface.co/blog/llama2#how-to-prompt-llama-2 (If you are using Google Colab, you would need to upgrade to the pro version)
 3. Information Extraction with llama2: https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380
 4. LLAMA2 with LangChain: https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b
-5. Text Embedding with GPT4all: https://docs.gpt4all.io/gpt4all_python_embedding.html
+5. Getting Started With LLama2: https://ai.meta.com/llama/get-started/
+6. Text Embedding with GPT4all: https://docs.gpt4all.io/gpt4all_python_embedding.html
  
 ### Courses:
 1. General: Generative AI with LLMS (Coursera): https://www.coursera.org/learn/generative-ai-with-llms
@@ -53,5 +54,7 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 2. General: CS324 - Large Language Models, https://stanford-cs324.github.io/winter2022/
    Theories from this course are worth learning.
 3. ChatGPT: ChatGPT Prompt Engineering for Developers
+
+   
 
 
