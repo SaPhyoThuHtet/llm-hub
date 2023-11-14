@@ -41,6 +41,10 @@ Fine Tuning llama2:
 1. https://artificialcorner.com/mastering-llama-2-a-comprehensive-guide-to-fine-tuning-in-google-colab-bedfcc692b7f
 2. https://medium.com/ai-in-plain-english/fine-tuning-llama2-0-with-qloras-single-gpu-magic-1b6a6679d436
 
+### BERT
+Fine Tuning BERT
+1. https://towardsdatascience.com/fine-tune-a-large-language-model-with-python-b1c09dbc58b2
+
 Reference: Coming Soon
 
 ## Notebooks
