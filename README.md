@@ -40,6 +40,7 @@ In summary, full fine-tuning mathematically involves iteratively adjusting the m
 Fine Tuning llama2:
 1. https://artificialcorner.com/mastering-llama-2-a-comprehensive-guide-to-fine-tuning-in-google-colab-bedfcc692b7f
 2. https://medium.com/ai-in-plain-english/fine-tuning-llama2-0-with-qloras-single-gpu-magic-1b6a6679d436
+3. https://anirbansen2709.medium.com/finetuning-llms-using-lora-77fb02cbbc48
 
 ### BERT
 Fine Tuning BERT
