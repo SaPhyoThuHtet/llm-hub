@@ -69,6 +69,8 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
    Theories from this course are worth learning.
 3. ChatGPT: ChatGPT Prompt Engineering for Developers
 
+### LLM for Under-resourced Languages:
+
    
 
 
