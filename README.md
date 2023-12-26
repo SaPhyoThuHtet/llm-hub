@@ -71,6 +71,10 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 
 ### LLM for Under-resourced Languages:
 
+### Ethical LLM
+1. carbon emissions estimations on the hub: https://huggingface.co/blog/carbon-emissions-on-the-hub
+2. Codecarbon to measure carbon emissions: https://codecarbon.io/
+3. Mlco2 to measure carbon emission: https://mlco2.github.io/impact/
    
 
 
