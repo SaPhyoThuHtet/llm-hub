@@ -46,7 +46,7 @@ Fine Tuning llama2:
 Fine Tuning BERT
 1. https://towardsdatascience.com/fine-tune-a-large-language-model-with-python-b1c09dbc58b2
 
-Reference: Coming Soon
+
 
 ## Notebooks
 
@@ -75,6 +75,9 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 1. carbon emissions estimations on the hub: https://huggingface.co/blog/carbon-emissions-on-the-hub
 2. Codecarbon to measure carbon emissions: https://codecarbon.io/
 3. Mlco2 to measure carbon emission: https://mlco2.github.io/impact/
+
+### References:
+Coming Soon
    
 
 
