@@ -76,7 +76,7 @@ Cheat Sheet of LLM: https://github.com/Abonia1/CheatSheet-LLM
 
 ### RAG
 https://jayant017.medium.com/rag-using-langchain-part-2-text-splitters-and-embeddings-3225af44e7ea
-
+https://www.youtube.com/watch?v=tcqEUSNCn8I
 ### Ethical LLM
 1. carbon emissions estimations on the hub: https://huggingface.co/blog/carbon-emissions-on-the-hub
 2. Codecarbon to measure carbon emissions: https://codecarbon.io/
