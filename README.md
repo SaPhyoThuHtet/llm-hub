@@ -40,12 +40,29 @@ In summary, full fine-tuning mathematically involves iteratively adjusting the m
 
 **11. What is RLHF?:** Reinforcement Learning with Human Feedback (RLHF) is a specialized approach in machine learning, especially relevant in cases where traditional reinforcement learning faces challenges. It integrates human guidance into the training process of AI agents. Instead of relying solely on environmental rewards, RLHF allows humans to provide feedback to the agent, helping it understand what actions are desirable. This feedback is used to create reward models that enhance the agent's learning process. The agent is trained using a combination of these reward models and traditional environmental rewards, optimizing its behaviour. RLHF is valuable in complex tasks like robotics and autonomous driving, ensuring AI systems align better with human values and safety. It offers a powerful method for refining AI behaviour in scenarios where defining a precise reward function is challenging.
 In mathematical terms, this can be expressed as: 
+![image](https://github.com/user-attachments/assets/41e3fae2-69dd-4d56-bd46-e3c3f8341f1a)
 
 
 However, RL faces challenges when it comes to defining suitable reward functions, especially in complex, high-dimensional environments where human expertise is valuable. This is where RLHF comes in. In RLHF, human feedback is introduced to enhance the learning process. Human feedback can be represented as a function:
+![image](https://github.com/user-attachments/assets/bcf6254b-9904-4169-97ad-2d31b13d0bf0)
 
 
 This human-provided reward signal (rh) is then integrated with the traditional environmental rewards, creating a combined reward signal that guides the agent's learning process. This can be represented mathematically as:
+![image](https://github.com/user-attachments/assets/b7a7600c-337e-4f9e-aa62-fc16bdb537e6)
+
+### 12. What is Catastrophic Forgetting in Fine Tuning?
+What is Catastrophic Forgetting in Fine-Tuning?
+Catastrophic forgetting in fine-tuning occurs when a neural network, pre-trained on one task and then fine-tuned for a new task, loses the ability to perform well on the original task. The fine-tuning process can lead to significant changes in the model's representation, causing it to forget knowledge relevant to the pre-training task. Mitigating this issue is crucial, and strategies like regularization, learning rate scheduling, larger datasets, and auxiliary tasks can help maintain the model's performance on both tasks.
+
+Let represent θ as weights and L as Loss.
+Original Task Loss: L_original(θ_initial)
+Fine-Tuning Task Loss: L_new(θ_fine-tuned)
+Total Loss during Fine-Tuning with Weighted Combination: Total Loss = α * L_original(θ_fine-tuned) + (1 - α) * L_new(θ_fine-tuned) 
+Optimization during Fine-Tuning to Find θ_fine-tuned: 
+θ_fine-tuned = argmin(α * L_original(θ_fine-tuned) + (1 - α) * L_new(θ_fine-tuned)) 
+
+The issue of catastrophic forgetting arises from the fact that optimizing for the new task (L_new) during fine-tuning can lead to changes in the model's parameters (θ_fine-tuned) that negatively affect the original task's performance (L_original). The balance between these two tasks is controlled by the weighting factor α.
+
 
 ### LLAMA2
 Fine Tuning llama2:
