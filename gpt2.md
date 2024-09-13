@@ -57,3 +57,6 @@ GPT-3's architecture, due to its larger size, exhibits superior few-shot and zer
 
 Task Generalization:
 GPT-3 shows improved performance in various natural language processing tasks, showcasing its ability to generalize across different tasks and domains. This is partly attributed to the model's increased capacity.
+
+Fine Tuning GPT2: 
+https://colab.research.google.com/drive/1cA2ECkR8HHste_fTrEJpMwxnuOZre3c8?usp=sharing
